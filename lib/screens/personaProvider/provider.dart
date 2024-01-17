@@ -5,10 +5,21 @@ class ListProvider with ChangeNotifier {
   List<String> listImage = [];
   List<String> list = [];
   int idioma=0;
+  int contador=0;
+
 
 
   get listapersonaje {
     return list;
+  }
+
+  void addContador() {
+    contador++;
+    notifyListeners();
+  }
+  void ceroContador() {
+    contador=0;
+    notifyListeners();
   }
   
 

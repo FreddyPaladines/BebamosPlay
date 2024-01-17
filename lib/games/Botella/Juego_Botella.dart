@@ -14,6 +14,8 @@ class Juego_Botella extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final listapersonaje = Provider.of<ListProvider>(context);
+     final size= MediaQuery.of(context).size;
+
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Color.fromARGB(255, 54, 46, 37),
@@ -31,6 +33,29 @@ class Juego_Botella extends StatelessWidget {
         body: Stack(
           children: [
             FondoInstrucciones(),
+            
+            if(listapersonaje.listapersonaje.length!=0)
+                Column(children: [
+                Container(height: size.height*0.03,),
+
+                Text(listapersonaje.idioma==0?"Turno de:":"Turn",
+                style: TextStyle(
+                fontFamily: 'SyneMono',
+                fontSize: 25,
+                color: Color(0xFFD9A238)
+              ),
+                
+                ),
+                Text(listapersonaje.listapersonaje[listapersonaje.contador],
+                style: TextStyle(
+                fontFamily: 'SyneMono',
+                fontSize: 30,
+                color: Color(0xFFD9A238)
+              ),
+                
+                )
+
+            ],),
             CuerpoBotella(),
            
 
@@ -138,7 +163,10 @@ class _CuerpoBotellaState extends State<CuerpoBotella>
         Center(
           child: Column(
             children: [
-              SizedBox(height:  size.height*0.25,),
+              SizedBox(height:  size.height*0.12,),
+              
+
+              SizedBox(height:  size.height*0.1,),
               AnimatedBuilder(
                 animation: animation, 
                 builder: (context,child)=>     
@@ -183,7 +211,15 @@ class _CuerpoBotellaState extends State<CuerpoBotella>
               
                     });
                   }, 
-                  child: Text(listapersonaje.idioma==0?"Girar":"Spin",)),
+                  child: Text(listapersonaje.idioma==0?"Girar":"Spin",
+                  style:TextStyle(
+                          fontFamily: 'SyneMono',
+                        fontWeight: FontWeight.bold,
+                          fontSize:20,
+                          color: Colors.black,
+                          ),
+                  
+                  )),
               ),
               SizedBox(height: 32,),
               Visibility(
@@ -203,6 +239,7 @@ class _CuerpoBotellaState extends State<CuerpoBotella>
                     setState(() {
                       botongirar=false;
                       mensajeMostrar=false;
+                      
                     
 
                     desafioMostrar = true;});
@@ -210,7 +247,15 @@ class _CuerpoBotellaState extends State<CuerpoBotella>
 
 
                   }, 
-                  child: Text(listapersonaje.idioma==0?"Mostrar desafio":"show challenge")),
+                  child: Text(listapersonaje.idioma==0?"Mostrar desafio":"show challenge",
+                  style:TextStyle(
+                          fontFamily: 'SyneMono',
+                        fontWeight: FontWeight.bold,
+                          fontSize:20,
+                          color: Colors.black,
+                          ),
+                  
+                  )),
               ),
 
 
@@ -258,6 +303,11 @@ class _CuerpoBotellaState extends State<CuerpoBotella>
                           desafioMostrar=false;
                           mensajeMostrar = false;
                           botongirar=true;
+                          if(listapersonaje.listapersonaje.length!=0) {
+                        listapersonaje.addContador();
+                        if (listapersonaje.contador>=listapersonaje.listapersonaje.length){
+                          listapersonaje.ceroContador();
+                        }}
                           
                           
                         });

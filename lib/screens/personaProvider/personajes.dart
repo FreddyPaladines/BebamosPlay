@@ -70,7 +70,6 @@ class _PersonaPaginaState extends State<PersonaPagina> {
 
     final size = MediaQuery.of(context).size;
     return Scaffold(
-        backgroundColor: Color(0xFFFDECEF),
         body: Stack(
           children: [
             BackgroundInicio(),
@@ -109,8 +108,11 @@ class _PersonaPaginaState extends State<PersonaPagina> {
                           if (_formKey.currentState!.validate()) {
                           _formKey.currentState!.save();
                           _controller.clear();
+                          FocusScopeNode currentFocus = FocusScope.of(context);
+                          if (!currentFocus.hasPrimaryFocus) {
+                            currentFocus.unfocus();
+                            }
                         }
-
   },
                         style: TextStyle(color: Colors.black),
                         decoration: InputDecoration(
@@ -161,19 +163,22 @@ class _PersonaPaginaState extends State<PersonaPagina> {
                         if (_formKey.currentState!.validate()) {
                           _formKey.currentState!.save();
                           _controller.clear();
+                          FocusScopeNode currentFocus = FocusScope.of(context);
+                          if (!currentFocus.hasPrimaryFocus) {
+                            currentFocus.unfocus();
+                            }
+                          
                         }
                       },
                       child: Text(listapersonaje.idioma==0?
                           "Agregar":"Add players",style: TextStyle(fontSize: 16),),
                     ),
                   ),
-                  Container(
-                    height: size.height * 0.05,
-                  ),
+                  
                   Consumer<ListProvider>(
                       builder: (context, provider, listTile) {
                     return Container(
-                      height: size.height * 0.6,
+                      height: size.height * 0.62,
                       child: ListView.builder(
                         itemCount: listClass.list.length,
                         itemBuilder: buildList,
@@ -216,7 +221,6 @@ class _PersonaPaginaState extends State<PersonaPagina> {
                                 content: Text(listapersonaje.idioma==0?
                           "Agregar al menos dos jugador":"Add at least two player",style: TextStyle(color: Colors.black87),),
                                 duration: const Duration(seconds: 3),
-                                
                               ));
                             }
                           },

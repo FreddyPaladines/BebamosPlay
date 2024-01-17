@@ -10,8 +10,13 @@ import '../../../screens/personaProvider/provider.dart';
 
 
 // ignore: must_be_immutable
-class NormalRetoResp extends StatelessWidget {
+class NormalRetoResp extends StatefulWidget {
 
+  @override
+  State<NormalRetoResp> createState() => _NormalRetoRespState();
+}
+
+class _NormalRetoRespState extends State<NormalRetoResp> {
   final dataEnglish=[
     {"id": 0, "Description": "Upload one of your worst selfies to Facebook"},
      {"id": 1, "Description": "Post an embarrassing WhatsApp status"},
@@ -74,10 +79,49 @@ class NormalRetoResp extends StatelessWidget {
      {"id" : 58, "Description" : "Make up without a mirror and leave it like that for the rest of the game."},
      {"id": 59, "Description": "Custom insult to everyone present."},
      {"id": 60, "Description": "Say Im gay."},
+     {"id": 61, "Description": "Create an absurd story where you are the hero, and a unicorn asks you for fashion advice."},
+     {"id": 62, "Description": "Mimic your favorite movie character for 1 minute, including the voice and gestures."},
+{"id": 63, "Description": "Craft an improvised rap about everyday objects around you."},
+{"id": 64, "Description": "Invent a funny choreography and perform it to the rhythm of a song of your choice."},
+{"id": 65, "Description": "Speak for 2 minutes without using the letter 'A' in any word."},
+{"id": 66, "Description": "Perform a dramatic interpretation of any comical situation."},
+{"id": 67, "Description": "Create an acrostic with your name using extravagant adjectives."},
+{"id": 68, "Description": "Tell a joke involving three animals that makes everyone laugh."},
+{"id": 69, "Description": "Mimic a famous chef while explaining how to prepare a gourmet ice cream sandwich."},
+{"id": 70, "Description": "Compose an improvised song about a randomly chosen object in the room."},
+{"id": 71, "Description": "Create a unique cocktail using surprising ingredients and give it an extravagant name."},
+{"id": 72, "Description": "Quick! Everyone touch something red."},
+{"id": 73, "Description": "Create a playlist of songs that represent your relationship. Share it with your friends afterwards."},
+{"id": 74, "Description": "If you have ice, put it on your back."},
+{"id": 75, "Description": "Make a collaborative drawing or painting, with each person adding something to the artwork."},
+{"id": 76, "Description": "Take a group photo and post it on social media claiming you are the best."},
+{"id": 77, "Description": "Write a short story together, with each person contributing a paragraph."},
+{"id": 78, "Description": "Call the person to your right 'cuckold'."},
+{"id": 79, "Description": "You can only eat what others serve you with a spoon."},
+{"id": 80, "Description": "Conduct a treasure hunt at home with clues and rewards at the end."},
+{"id": 81, "Description": "Imitate a cartoon character in a comical way."},
+{"id": 82, "Description": "Sing a song of your choice using a completely different voice."},
+{"id": 83, "Description": "Build a tower of cups with cards and knock it down by throwing a sock from a short distance."},
+{"id": 84, "Description": "Recite the alphabet backwards in less than 20 seconds."},
+{"id": 85, "Description": "Perform a regional dance."},
+{"id": 86, "Description": "Balance a book on your head and walk around the room without letting it fall."},
+{"id": 87, "Description": "Perform a simple acrobatic move, like a somersault or a cartwheel, if it's safe to do so in your space."},
+{"id": 88, "Description": "Juggle with three objects you find at home for at least 1 minute."},
+{"id": 89, "Description": "Pick up five random objects and create a short story involving all of them."},
+{"id": 90, "Description": "Try to make a funny face and maintain that expression for 1 minute."},
+{"id": 91, "Description": "Add spice to any drink."},
+{"id": 92, "Description": "Imitate the sound of three animals and challenge others to guess what they are."},
+{"id": 93, "Description": "Recite a tongue twister as fast as possible without making mistakes."},
+{"id": 94, "Description": "Speak in another language for two minutes."},
+{"id": 95, "Description": "Create an abstract art sculpture using everyday objects."},
+{"id": 96, "Description": "Dramatically interpret your favorite song."},
+{"id": 97, "Description": "Take a photoshoot with a common object and post it on social media."},
+{"id": 98, "Description": "Invent a unique greeting and present it to the group for 1 minute."},
+{"id": 99, "Description": "Write a message to your high school sweetheart."},
+{"id": 100, "Description": "Take your drink; you can't use your hands."}
+
   ];
 
-
-  
   final data = [
     {"id" : 0, "Descripcion" : "Subir a Facebook una de tus peores selfies"},
     {"id" : 1, "Descripcion" : "Publicar un estado de WhatsApp vergonzoso"},
@@ -103,7 +147,6 @@ class NormalRetoResp extends StatelessWidget {
     {"id" : 21, "Descripcion" : "Intentar meter todos los dedos de un pie en la boca."},
     {"id" : 22, "Descripcion" : "Enviar un 'sext' a la última persona de tu agenda telefónica."},
     {"id" : 23, "Descripcion" : "Mostrar tu cara de orgasmo."},
-    //
     {"id" : 24, "Descripcion" : "Comer un plátano de forma seductora."},
     {"id" : 25, "Descripcion" : "Vaciar tu cartera/monedero y enseñar a todos lo que hay dentro."},
     {"id" : 26, "Descripcion" : "Hacer tu mejor 'gateo sexy'."},
@@ -141,28 +184,66 @@ class NormalRetoResp extends StatelessWidget {
     {"id" : 58, "Descripcion" : "Sentarte en el suelo durante el resto de la noche."},
     {"id" : 59, "Descripcion" : "Maquillarte sin espejo y dejarte así durante el resto del juego."},
     {"id" : 60, "Descripcion" : "Insultar de forma personalizada a todos los presentes."},
+    {"id": 61, "Descripcion": "Crear una historia absurda en la que eres el héroe y un unicornio te pide consejos de moda."},
+{"id": 62, "Descripcion": "Imitar a tu personaje favorito de película durante 1 minuto, incluyendo la voz y gestos."},
+{"id": 63, "Descripcion": "Elaborar un rap improvisado sobre objetos cotidianos a tu alrededor."},
+{"id": 64, "Descripcion": "Inventar una coreografía divertida y realizarla al ritmo de una canción a elección."},
+{"id": 65, "Descripcion": "Hablar durante 2 minutos sin utilizar la letra 'A' en ninguna palabra."},
+{"id": 66, "Descripcion": "Realizar una interpretación dramática de una situación cómica cualquiera."},
+{"id": 67, "Descripcion": "Crear un acróstico con tu nombre utilizando adjetivos extravagantes."},
+{"id": 68, "Descripcion": "Contar un chiste que involucre a tres animales y haga reír a todos los presentes."},
+{"id": 69, "Descripcion": "Imitar a un famoso chef mientras explicas cómo preparar un sándwich de helado gourmet."},
+
+{"id": 70, "Descripcion": "Componer una canción improvisada sobre un objeto al azar que alguien elija en la habitación."},
+{"id": 71, "Descripcion": "Crea un cóctel único usando ingredientes sorprendentes y dale un nombre extravagante."},
+{"id": 72, "Descripcion": "¡Rapido!, todos toquen algo de color rojo"},
+{"id": 73, "Descripcion": "Elaboren juntos una lista de reproducción de canciones que representen su relación. Compartele luego con tus amigos"},
+{"id": 74, "Descripcion": "Si tienen hielo, ponte en la espalda"},
+{"id": 75, "Descripcion": "Hagan un dibujo o pintura colaborativa, cada uno añadiendo algo a la obra de arte."},
+{"id": 76, "Descripcion": "Toma foto del grupo, y subelo en las redes sociales diciendo que son los mejores"},
+{"id": 77, "Descripcion": "Escriban juntos una historia corta, cada uno contribuyendo con un párrafo."},
+{"id": 78, "Descripcion": "Dile cachudo/a al de la derecha"},
+{"id": 79, "Descripcion": "Solo puedes tomar con cuchara lo que te sirvan"},
+{"id": 80, "Descripcion": "Realiza una búsqueda del tesoro en casa con pistas y premios al final."},
+{"id": 81, "Descripcion": "Realiza una imitación cómica de tu personaje favorito de dibujos animados."},
+{"id": 82, "Descripcion": "Canta una canción de tu elección usando una voz completamente diferente."},
+{"id": 83, "Descripcion": "Haz una torre de vasos con cartas y derribala lanzando un calcetín desde una distancia corta."},
+{"id": 84, "Descripcion": "Recita el abecedario al revés en menos de 20 segundos."},
+{"id": 85, "Descripcion": "Realiza una danza regional"},
+{"id": 86, "Descripcion": "Balancea un libro en tu cabeza y camina por la habitación sin dejar que se caiga."},
+{"id": 87, "Descripcion": "Realiza una acrobacia simple, como una voltereta o una rueda, si es seguro hacerlo en tu espacio."},
+{"id": 88, "Descripcion": "Haz malabares con tres objetos que encuentres en casa durante al menos 1 minuto."},
+{"id": 89, "Descripcion": "Recoge cinco objetos al azar y crea una historia corta que los involucre a todos."},
+{"id": 90, "Descripcion": "Intenta hacer una cara graciosa y mantén esa expresión durante 1 minuto."},
+{"id": 91, "Descripcion": "Ponle picante a cualquier bebida."},
+{"id": 92, "Descripcion": "Imita el sonido de tres animales y desafía a otros a adivinar cuáles son."},
+{"id": 93, "Descripcion": "Recita un trabalenguas lo más rápido posible sin cometer errores."},
+{"id": 94, "Descripcion": "Habla en otro idioma por dos mionutos"},
+{"id": 95, "Descripcion": "Crea una escultura de arte abstracto utilizando objetos cotidianos."},
+{"id": 96, "Descripcion": "Realiza una interpretación dramática de tu canción favorita."},
+{"id": 97, "Descripcion": "Haz una sesión de fotos con un objeto cotidiano y subela a las redes sociuales"},
+{"id": 98, "Descripcion": "Inventa un saludo único y preséntalo al grupo durante 1 minuto."},
+{"id": 99, "Descripcion": "Escribele a tu amor de colegio."},
+{"id": 100, "Descripcion": "Toma tu bebida, No puedes usar las manos"}
 
   ];
 
-
-  
-  
   Object? cuerpotexto = "";
+
   Object? cuerpotextoIngles = "";
-  
-
-
-
 
   @override
   Widget build(BuildContext context) {
     final listapersonaje=Provider.of<ListProvider>(context);
     int tamanolista = data.length;
+    
+    
 
     var intValue = Random().nextInt(tamanolista);
     
     cuerpotexto=data[intValue]["Descripcion"];
     cuerpotextoIngles=dataEnglish[intValue]["Description"];
+    
 
 
 
@@ -186,9 +267,23 @@ class NormalRetoResp extends StatelessWidget {
               colorfondo: Color(0xff28A5B6), 
               imagen1: 'assets/Instrucciones_Verdad2.png', 
               imagen2: 'assets/Instrucciones_Verdad3.png',),
-            CuadroTexto(),
-            BotonVerdad(),
-            _TextoEnPantalla(textoValor: listapersonaje.idioma==0?"$cuerpotexto":"$cuerpotextoIngles"),
+            Center(
+              child: GestureDetector(
+                onTap: () {
+                        if(listapersonaje.listapersonaje.length!=0) {
+                          listapersonaje.addContador();
+                          if (listapersonaje.contador>=listapersonaje.listapersonaje.length){
+                            listapersonaje.ceroContador();
+                          }}
+                        
+                        
+                        
+                        Navigator.pop(context);},
+                
+                child: CuadroTexto()),
+            ),
+            Center(child: BotonVerdad()),
+            Center(child: _TextoEnPantalla(textoValor: listapersonaje.idioma==0?"$cuerpotexto":"$cuerpotextoIngles")),
 
 
 
@@ -199,7 +294,7 @@ class NormalRetoResp extends StatelessWidget {
 }
 }
 
-class _TextoEnPantalla extends StatelessWidget{
+class _TextoEnPantalla extends StatefulWidget{
   final String textoValor;
   
 const _TextoEnPantalla({
@@ -208,8 +303,11 @@ const _TextoEnPantalla({
 
   }) : super(key: key);
 
+  @override
+  State<_TextoEnPantalla> createState() => _TextoEnPantallaState();
+}
 
-
+class _TextoEnPantallaState extends State<_TextoEnPantalla> {
   @override
   Widget build(BuildContext context) {
    final size= MediaQuery.of(context).size;
@@ -222,7 +320,7 @@ const _TextoEnPantalla({
           padding: const EdgeInsets.all(30.0),
           child: SizedBox(
             height: 300,
-            width: 500,
+            width: 450,
             
 
             child: AspectRatio(
@@ -231,7 +329,7 @@ const _TextoEnPantalla({
               
               
               children: [
-                Text("$textoValor",
+                Text("${widget.textoValor}",
                 style: TextStyle(
                     fontFamily: 'Arial',
                     fontSize: 30,
@@ -240,7 +338,16 @@ const _TextoEnPantalla({
                   ),
                   ),
                   GestureDetector(
-                  onTap: () {Navigator.pushNamed(context, "NoemalVerdadoReto");},
+                  onTap: () {
+                      if(listapersonaje.listapersonaje.length!=0) {
+                        listapersonaje.addContador();
+                        if (listapersonaje.contador>=listapersonaje.listapersonaje.length){
+                          listapersonaje.ceroContador();
+                        }}
+                      
+                      
+                      
+                      Navigator.pop(context);},
                   ),
                 Column( children: [
 
@@ -283,9 +390,11 @@ const _TextoEnPantalla({
 class CuadroTexto extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
+    final size= MediaQuery.of(context).size;
+
     return Column(
       children: [
-        SizedBox(height: 170,),
+        SizedBox(height: size.height*0.2,),
         Padding(
           padding: const EdgeInsets.all(10.0),
           child: Container(
@@ -345,7 +454,12 @@ class CuadroTexto extends StatelessWidget{
 
 }
 
-class BotonVerdad extends StatelessWidget{
+class BotonVerdad extends StatefulWidget{
+  @override
+  State<BotonVerdad> createState() => _BotonVerdadState();
+}
+
+class _BotonVerdadState extends State<BotonVerdad> {
   @override
   Widget build(BuildContext context) {
     final size= MediaQuery.of(context).size;
@@ -374,9 +488,7 @@ class BotonVerdad extends StatelessWidget{
 
 
                   ),
-                GestureDetector(
-                onTap: () {Navigator.pushNamed(context, "NoemalVerdadoReto");},
-                child: Hero(
+                Hero(
                     tag: 2, 
                     child: ClipRRect(
 
@@ -393,8 +505,6 @@ class BotonVerdad extends StatelessWidget{
                     
                     
                     ),
-
-              ),
 
                   
               ],
@@ -415,8 +525,4 @@ class BotonVerdad extends StatelessWidget{
 
 
   }
-
-
-
-
 }

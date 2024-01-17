@@ -3,10 +3,16 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../../../screens/personaProvider/provider.dart';
 
-class NormalVerdadoReto extends StatelessWidget {
+class NormalVerdadoReto extends StatefulWidget {
+  @override
+  State<NormalVerdadoReto> createState() => _NormalVerdadoRetoState();
+}
+
+class _NormalVerdadoRetoState extends State<NormalVerdadoReto> {
   @override
   Widget build(BuildContext context) {
     final listapersonaje=Provider.of<ListProvider>(context);
+    final size= MediaQuery.of(context).size;
 
     return Scaffold(
       appBar: AppBar(
@@ -30,7 +36,36 @@ class NormalVerdadoReto extends StatelessWidget {
       ),),
             BotonVerdad(),
             BotonDesafio(),
+            if(listapersonaje.listapersonaje.length!=0)
+              Column(children: [
+                Container(height: size.height*0.8,),
+                Text(listapersonaje.idioma==0?"Turno de:":"Turn",
+                style: TextStyle(
+                fontFamily: 'Hitchcut',
+                fontSize: 20,
+                color: Colors.black,
+              ),
+                
+                ),
+                Text(listapersonaje.listapersonaje[listapersonaje.contador],
+                style: TextStyle(
+                fontFamily: 'Hitchcut',
+                fontSize: 25,
+                color: Colors.black,
+              ),
+                
+                )
 
+            ],)
+            
+            
+
+            
+
+
+            
+            
+            
 
             
             ],),
@@ -52,71 +87,73 @@ class BotonVerdad extends StatelessWidget{
         Padding(
           padding: const EdgeInsets.all(30.0),
 
-          child: SizedBox(
-                    width: 500,
-            height: 110,
-            child: AspectRatio (
-              
-              aspectRatio: 0.83,
-              child: Stack(
-                children: [
-
-                  
-                  Container(     
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.all(Radius.circular(15)),
-                    boxShadow: [
-                          BoxShadow(
-                            color: Colors.black.withOpacity(0.5),
-                            spreadRadius: 5,
-                            blurRadius: 7,
-                            offset: Offset(7,8)
-
-
-                          )
-                        ]
-                  ),
-
-
-                  
-                  
-
-                  ),
-                  GestureDetector(
-                  onTap: () {Navigator.pushNamed(context, "NoemalVerdadoResp");},
-                  child: Hero(
-                  tag: 1, 
-                  child: ClipRRect(
-                    borderRadius: BorderRadius.circular(20),
-                    
-                    
-                    child: FadeInImage(
-                      alignment: Alignment.center,
-                      image: AssetImage(listapersonaje.idioma==0?"assets/Verdad.jpg":"assets/Truth.png"),
-                      placeholder: AssetImage("assets/loading.gif")
-                      ,
-                      
-                      ),
-                  
-                  
-                  ),
-                  ),
-
-              ),
-                  
-
-                  
-              ],
-              ),
-              
-              ),
-              
-
-
+          child: Center(
+            child: SizedBox(
+                      width: 500,
+              height: 110,
+              child: AspectRatio (
+                
+                aspectRatio: 0.83,
+                child: Stack(
+                  children: [
           
-
+                    
+                    Container(     
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.all(Radius.circular(15)),
+                      boxShadow: [
+                            BoxShadow(
+                              color: Colors.black.withOpacity(0.5),
+                              spreadRadius: 5,
+                              blurRadius: 7,
+                              offset: Offset(7,8)
+          
+          
+                            )
+                          ]
+                    ),
+          
+          
+                    
+                    
+          
+                    ),
+                    GestureDetector(
+                    onTap: () {Navigator.pushNamed(context, "NoemalVerdadoResp");},
+                    child: Hero(
+                    tag: 1, 
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      
+                      
+                      child: FadeInImage(
+                        alignment: Alignment.center,
+                        image: AssetImage(listapersonaje.idioma==0?"assets/Verdad.jpg":"assets/Truth.png"),
+                        placeholder: AssetImage("assets/loading.gif")
+                        ,
+                        
+                        ),
+                    
+                    
+                    ),
+                    ),
+          
+                ),
+                    
+          
+                    
+                ],
+                ),
+                
+                ),
+                
+          
+          
             
-
+          
+              
+          
+            ),
           ),
         ),
       ],
@@ -148,71 +185,73 @@ class BotonDesafio extends StatelessWidget{
         Padding(
           padding: const EdgeInsets.all(30.0),
 
-          child: SizedBox(
-                    width: 500,
-            height: 110,
-            child: AspectRatio (
-              
-              aspectRatio: 0.83,
-              child: Stack(
-                children: [
-
-                  
-                  Container(     
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.all(Radius.circular(15)),
-                    boxShadow: [
-                          BoxShadow(
-                            color: Colors.black.withOpacity(0.5),
-                            spreadRadius: 5,
-                            blurRadius: 7,
-                            offset: Offset(7,8)
-
-
-                          )
-                        ]
-                  ),
-
-
-                  
-                  
-
-                  ),
-                  GestureDetector(
-                  onTap: () {Navigator.pushNamed(context, "NoemalRetoResp");},
-                  child: Hero(
-                  tag: 2, 
-                  child: ClipRRect(
-                    borderRadius: BorderRadius.circular(20),
-                    
-                    
-                    child: FadeInImage(
-                      alignment: Alignment.center,
-                      image: AssetImage(listapersonaje.idioma==0?"assets/Desafio.jpg":"assets/Dare.png"),
-                      placeholder: AssetImage("assets/loading.gif")
-                      ,
-                      
-                      ),
-                  
-                  
-                  ),
-                  ),
-
-              ),
-                  
-
-                  
-              ],
-              ),
-              
-              ),
-              
-
-
+          child: Center(
+            child: SizedBox(
+                      width: 500,
+              height: 110,
+              child: AspectRatio (
+                
+                aspectRatio: 0.83,
+                child: Stack(
+                  children: [
           
-
+                    
+                    Container(     
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.all(Radius.circular(15)),
+                      boxShadow: [
+                            BoxShadow(
+                              color: Colors.black.withOpacity(0.5),
+                              spreadRadius: 5,
+                              blurRadius: 7,
+                              offset: Offset(7,8)
+          
+          
+                            )
+                          ]
+                    ),
+          
+          
+                    
+                    
+          
+                    ),
+                    GestureDetector(
+                    onTap: () {Navigator.pushNamed(context, "NoemalRetoResp");},
+                    child: Hero(
+                    tag: 2, 
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      
+                      
+                      child: FadeInImage(
+                        alignment: Alignment.center,
+                        image: AssetImage(listapersonaje.idioma==0?"assets/Desafio.jpg":"assets/Dare.png"),
+                        placeholder: AssetImage("assets/loading.gif")
+                        ,
+                        
+                        ),
+                    
+                    
+                    ),
+                    ),
+          
+                ),
+                    
+          
+                    
+                ],
+                ),
+                
+                ),
+                
+          
+          
             
-
+          
+              
+          
+            ),
           ),
         ),
       ],

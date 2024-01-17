@@ -399,6 +399,403 @@ List<JuegosYoNunca> juegosYoNunca = [
     imaganes: "assets/YoNunca/50_Tatuaje.png",
     ruta: "",
   ),
+  
+JuegosYoNunca(
+  51,
+  description: "I have never had a crush on a fictional character",
+  descripcion: "Nunca he tenido un enamoramiento por un personaje ficticio",
+  imaganes: "assets/YoNunca/Nunca_51.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  52,
+  description: "I have never had a secret admirer",
+  descripcion: "Nunca he tenido un admirador secreto",
+  imaganes: "assets/YoNunca/Nunca_52.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  53,
+  description: "I have never had a crush on a teacher",
+  descripcion: "Nunca he tenido un romance con un profesor",
+  imaganes: "assets/YoNunca/Nunca_53.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  54,
+  description: "I have never had a romantic picnic",
+  descripcion: "Nunca he tenido un picnic romántico",
+  imaganes: "assets/YoNunca/Nunca_54.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  55,
+  description: "I have never had a crush on a coworker",
+  descripcion: "Nunca he tenido un enamoramiento por un compañero de trabajo",
+  imaganes: "assets/YoNunca/Nunca_55.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  56,
+  description: "I have never kissed someone on a Ferris wheel",
+  descripcion: "Nunca he besado a alguien en una noria",
+  imaganes: "assets/YoNunca/Nunca_56.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  57,
+  description: "I have never had a crush on a friend's sibling",
+  descripcion: "Nunca he tenido un enamoramiento por el hermano/a de un amigo",
+  imaganes: "assets/YoNunca/Nunca_57.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  58,
+  description: "I have never written a love letter",
+  descripcion: "Nunca he escrito una carta de amor",
+  imaganes: "assets/YoNunca/Nunca_58.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  59,
+  description: "I have never had a crush on a boss",
+  descripcion: "Nunca he tenido un enamoramiento con un jefe",
+  imaganes: "assets/YoNunca/Nunca_59.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  60,
+  description: "I have never had a romantic dance in the rain",
+  descripcion: "Nunca he tenido un baile romántico bajo la lluvia",
+  imaganes: "assets/YoNunca/Nunca_60.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  61,
+  description: "I have never flirted with a stranger at a bar",
+  descripcion: "Nunca he coqueteado con un desconocido en un bar",
+  imaganes: "assets/YoNunca/Nunca_61.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  62,
+  description: "I have never kissed someone at midnight on New Year's Eve",
+  descripcion: "Nunca he besado a alguien a medianoche en Año Nuevo",
+  imaganes: "assets/YoNunca/Nunca_62.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  63,
+  description: "I have never had a crush on a neighbor",
+  descripcion: "Nunca he tenido un enamoramiento con un vecino",
+  imaganes: "assets/YoNunca/Nunca_63.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  64,
+  description: "I have never crashed my parents' car",
+  descripcion: "Nunca he chocado el carro de mis padres",
+  imaganes: "assets/YoNunca/Nunca_64.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  65,
+  description: "I have never danced provocatively in public",
+  descripcion: "Nunca he bailado de manera provocativa en público",
+  imaganes: "assets/YoNunca/Nunca_65.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  66,
+  description: "I have never kissed someone on the first date",
+  descripcion: "Nunca he besado a alguien en la primera cita",
+  imaganes: "assets/YoNunca/Nunca_66.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  67,
+  description: "I have never done a TV series or movie marathon for an entire day.",
+  descripcion: "Nunca he hecho una maratón de series o películas durante todo un día.",
+  imaganes: "assets/YoNunca/Nunca_67.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  68,
+  description: "I have never tried aphrodisiac foods",
+  descripcion: "Nunca he probado alimentos afrodisíacos",
+  imaganes: "assets/YoNunca/Nunca_68.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  69,
+  description: "I have never kissed someone of the same gender",
+  descripcion: "Nunca he besado a alguien del mismo género",
+  imaganes: "assets/YoNunca/Nunca_69.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  70,
+  description: "I have never written an erotic story",
+  descripcion: "Nunca he escrito una historia erótica",
+  imaganes: "assets/YoNunca/Nunca_70.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  71,
+  description: "I have never used a blindfold during intimacy",
+  descripcion: "Nunca he utilizado una venda en los ojos durante la intimidad",
+  imaganes: "assets/YoNunca/Nunca_71.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  72,
+  description: "I have never fantasized about a coworker",
+  descripcion: "Nunca he tenido fantasías sobre un compañero de trabajo",
+  imaganes: "assets/YoNunca/Nunca_72.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  73,
+  description: "I have never been caught flirting at work",
+  descripcion: "Nunca me han descubierto coqueteando en el trabajo",
+  imaganes: "assets/YoNunca/Nunca_73.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  74,
+  description: "I have never sent a naughty picture",
+  descripcion: "Nunca he enviado una foto atrevida",
+  imaganes: "assets/YoNunca/Nunca_74.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  75,
+  description: "I have never had a crush on a friend's ex",
+  descripcion: "Nunca he tenido un enamoramiento con el ex de un amigo",
+  imaganes: "assets/YoNunca/Nunca_75.png",
+  ruta: "",
+),
+  JuegosYoNunca(
+  76,
+  description: "I have never skinny-dipped in the ocean",
+  descripcion: "Nunca me he bañado desnudo en el océano",
+  imaganes: "assets/YoNunca/Nunca_76.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  77,
+  description: "I have never lost the car keys.",
+  descripcion: "Nunca he perdido las llaves del carro.",
+  imaganes: "assets/YoNunca/Nunca_77.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  78,
+  description: "I have never lost my luggage during a flight.",
+  descripcion: "Nunca he perdido mi equipaje durante un vuelo.",
+  imaganes: "assets/YoNunca/Nunca_78.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  79,
+  description: "I have never used a VIP lounge at the airport.",
+  descripcion: "Nunca he utilizado una sala VIP en el aeropuerto",
+  imaganes: "assets/YoNunca/Nunca_79.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  80,
+  description: "I have never spent hours procrastinating instead of studying.",
+  descripcion: "Nunca he pasado horas procrastinando en lugar de estudiar.",
+  imaganes: "assets/YoNunca/Nunca_80.png",
+  ruta: "",
+),
+JuegosYoNunca(
+  81,
+  description: "I have never used a pickup line",
+  descripcion: "Nunca he utilizado una frase para ligar",
+  imaganes: "assets/YoNunca/Nunca_81.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  82,
+  description: "I have never had a one-night stand",
+  descripcion: "Nunca he tenido una aventura de una noche",
+  imaganes: "assets/YoNunca/Nunca_82.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  83,
+  description: "I have never failed a course.",
+  descripcion: "Nunca he reprobado una asignatura",
+  imaganes: "assets/YoNunca/Nunca_83.png",
+  ruta: "",
+),
+JuegosYoNunca(
+  84,
+  description: "I have never been late to an important meeting",
+  descripcion: "Nunca he llegado tarde a una reunión importante.",
+  imaganes: "assets/YoNunca/Nunca_84.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  85,
+  description: "I have never used a fake excuse to avoid an event.",
+  descripcion: "Nunca he utilizado una excusa falsa para evitar un evento.",
+  imaganes: "assets/YoNunca/Nunca_85.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  86,
+  description: "I have never accidentally sent a text about someone to that person.",
+  descripcion: "Nunca he enviado accidentalmente un mensaje sobre alguien a esa persona.",
+  imaganes: "assets/YoNunca/Nunca_86.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  87,
+  description: "I have never pretended to know a language to impress someone.",
+  descripcion: "Nunca he fingido saber un idioma para impresionar a alguien.",
+  imaganes: "assets/YoNunca/Nunca_87.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  88,
+  description: "I have never lied about my favorite book to sound more intellectual.",
+  descripcion: "Nunca he mentido sobre mi libro favorito para parecer más intelectual.",
+  imaganes: "assets/YoNunca/Nunca_88.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  89,
+  description: "I have never pretended to be interested in a hobby to impress someone.",
+  descripcion: "Nunca he fingido estar interesado en un pasatiempo para impresionar a alguien.",
+  imaganes: "assets/YoNunca/Nunca_89.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  90,
+  description: "I have never accidentally sent a love message to a family member.",
+  descripcion: "Nunca he enviado accidentalmente un mensaje de amor a un miembro de la familia.",
+  imaganes: "assets/YoNunca/Nunca_90.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  91,
+  description: "I have never pretended to like a movie to avoid an argument.",
+  descripcion: "Nunca he fingido que me gustó una película para evitar una discusión.",
+  imaganes: "assets/YoNunca/Nunca_91.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  92,
+  description: "I have never accidentally sent a screenshot to the person I screenshotted.",
+  descripcion: "Nunca he enviado accidentalmente una captura de pantalla a la persona que capturé.",
+  imaganes: "assets/YoNunca/Nunca_92.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  93,
+  description: "I have never pretended to know a famous quote that I had never heard before.",
+  descripcion: "Nunca he fingido conocer una cita famosa que nunca había escuchado antes.",
+  imaganes: "assets/YoNunca/Nunca_93.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  94,
+  description: "I have never accidentally liked an old post while stalking someone on social media.",
+  descripcion: "Nunca he dado like accidentalmente a una publicación antigua mientras stalkeaba a alguien en redes sociales.",
+  imaganes: "assets/YoNunca/Nunca_94.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  95,
+  description: "I have never ordered a wrong meal.",
+  descripcion: "Nunca he hecho mal el pedido de una comida",
+  imaganes: "assets/YoNunca/Nunca_95.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  96,
+  description: "I have never pretended to like a song to fit in with a group.",
+  descripcion: "Nunca he fingido que me gusta una canción para encajar en un grupo.",
+  imaganes: "assets/YoNunca/Nunca_96.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  97,
+  description: "I've never had a fight over a girl or boy",
+  descripcion: "Nunca he tenido una pelea por una chica o chico",
+  imaganes: "assets/YoNunca/Nunca_97.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  98,
+  description: "I have never played a musical instrument well.",
+  descripcion: "Nunca he tocado un instrumento musica bien",
+  imaganes: "assets/YoNunca/Nunca_98.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  99,
+  description: "I have never purposefully stated my age incorrectly.",
+  descripcion: "Nunca he dicho mal mi edad aproposito",
+  imaganes: "assets/YoNunca/Nunca_99.png",
+  ruta: "",
+),
+
+JuegosYoNunca(
+  100,
+  description: "I have never lied about my occupation to sound more interesting.",
+  descripcion: "Nunca he mentido sobre mi ocupación para parecer más interesante.",
+  imaganes: "assets/YoNunca/Nunca_100.png",
+  ruta: "",
+),
 
 
 
@@ -447,13 +844,13 @@ List<JuegosBotella> juegosBotella = [
   JuegosBotella(
     5,
     description: "I never thought that I am the most beautiful person in this group.",
-    descripcion: "Yo nunca pensé que soy la persona más bella de este grupo.",
+    descripcion: "Pienas que es  la persona más bella de este grupo la que salio en la botella",
     imagen: "assets/Shot1.png",
   ),
   JuegosBotella(
     6,
     description: "Getting into the bathroom for a round with the person",
-    descripcion: "Meterse en el baño durante una ronda con la persona",
+    descripcion: "Meterse en el baño durante una ronda con la persona que salio",
     imagen: "assets/Shot3.png",
   ),
   JuegosBotella(
@@ -465,15 +862,15 @@ List<JuegosBotella> juegosBotella = [
   ),
   JuegosBotella(
     8,
-    description: "Call your partner and tell him you're pregnant, if he doesn't take 2 shots",
+    description: "Call your partner and tell him you're pregnant",
     descripcion:
-        "Llamar a tu pareja y decirle que estás embarazada, si no toma 2 shots",
+        "Llamar a la pareja que salio en la botella",
     imagen: "assets/Shot2.png",
   ),
   JuegosBotella(
     9,
     description: "Send an emoji to your boss, if he doesn't take a shot",
-    descripcion: "Manda un emoji a tu jefe., si no toma um shot",
+    descripcion: "Manda un emoji al jefe que salio en la botella",
     imagen: "assets/Shot1.png",
   ),
   JuegosBotella(
@@ -507,7 +904,7 @@ List<JuegosBotella> juegosBotella = [
     14,
     description: "Send a suggestive photo to a WhatsApp contact chosen by the rest of the group.",
     descripcion:
-        "Enviar una foto sugerente a algún contacto de WhatsApp que elija el resto del grupo.",
+        "Enviar una foto sugerente a algún contacto de WhatsApp que elija el que giro la botella",
     imagen: "assets/Shot1.png",
   ),
   JuegosBotella(
@@ -540,7 +937,7 @@ List<JuegosBotella> juegosBotella = [
   JuegosBotella(
     19,
     description: "Run your tongue around the neck of someone in the group.",
-    descripcion: "Pasa la lengua por el cuello de alguien del grupo.",
+    descripcion: "Pasa la lengua por el cuello al que giro la botella.",
     imagen: "assets/Shot1.png",
   ),
   JuegosBotella(
@@ -559,7 +956,7 @@ List<JuegosBotella> juegosBotella = [
   JuegosBotella(
     22,
     description: "Whisper something cheeky and suggestive into someone else's ear.",
-    descripcion: "Susurra algo atrevido y sugerente al oído de otra persona.",
+    descripcion: "Susurra algo atrevido y sugerente al oído de la persona que giro la botella",
     imagen: "assets/Shot1.png",
   ),
   JuegosBotella(
@@ -584,19 +981,19 @@ List<JuegosBotella> juegosBotella = [
   JuegosBotella(
     26,
     description: "Insult for 20 seconds.",
-    descripcion: "Insulta durante 20 segundos.",
+    descripcion: "Insulta durante 20 segundos al que giro la botella",
     imagen: "assets/Shot1.png",
   ),
   JuegosBotella(
     27,
     description: "Dance to a song that the bottle spinner chooses.",
-    descripcion: "Baila con una canción que el que giro la botella elija.",
+    descripcion: "Baila  una canción con el que giro la botella.",
     imagen: "assets/Shot1.png",
   ),
   JuegosBotella(
     28,
     description: "Crack an egg over your head.",
-    descripcion: "Rompe un huevos sobre tu cabeza.",
+    descripcion: "Rompe un huevos sobre tu cabeza del que giro la botella",
     imagen: "assets/Shot1.png",
   ),
   JuegosBotella(
@@ -628,7 +1025,7 @@ List<JuegosBotella> juegosBotella = [
     33,
     description: "Sell someone in the group a piece of junk. Use your best sales skills",
     descripcion:
-        "Véndele un pedazo de basura a alguien del grupo. Usa tus mejores habilidades de vendedor",
+        "Véndele un pedazo de basura a alguien del grupo. Usa tus mejores habilidades de vendedor, el que giro la botella te califica",
     imagen: "assets/Shot1.png",
   ),
   JuegosBotella(
@@ -640,7 +1037,7 @@ List<JuegosBotella> juegosBotella = [
   JuegosBotella(
     35,
     description: "Choose one person and let them slap you across the face.",
-    descripcion: "Elige a una persona y deja que te dé una bofetada.",
+    descripcion: "Le debes una bofetada en cualquier parte del cuerpo al que giro la botella",
     imagen: "assets/Shot1.png",
   ),
   JuegosBotella(
@@ -682,28 +1079,28 @@ List<JuegosBotella> juegosBotella = [
     41,
     description: "Draw something on the person to your right",
     descripcion:
-        "Dibuja algo en la persona que está a tu derecha",
+        "Dibuja algo a la persona que giro la botella",
     imagen: "assets/Shot1.png",
   ),
   JuegosBotella(
     42,
     description: "Massage your neighbor's shoulders.",
     descripcion:
-        "Masajea los hombros a tu vecino.",
+        "Masajea los hombros al que giro la botella.",
     imagen: "assets/Shot3.png",
   ),
   JuegosBotella(
     43,
     description: "Act like an animal for 1 minute. Someone must choose the animal for you.",
     descripcion:
-        "Actúa como animal durante 1 minuto. Alguien debe elegir el animal por ti.",
+        "Actúa como animal durante 1 minuto. El que giro la botella elije el animal.",
     imagen: "assets/Shot1.png",
   ),
   JuegosBotella(
     44,
     description: "Dance the Macarena",
     descripcion:
-        "Baila la Macarena",
+        "Baila la Macarena con el que giro la botella",
     imagen: "assets/Shot2.png",
   ),
   JuegosBotella(
@@ -724,7 +1121,7 @@ List<JuegosBotella> juegosBotella = [
     47,
     description: "You can only talk to the least smart in the party for 1 round.",
     descripcion:
-        "Solo puedes hablarle al menos listo del grupo por 1 ronda.",
+        "Solo puedes hablarle al que giro la botella.",
     imagen: "assets/Shot1.png",
   ),
   JuegosBotella(

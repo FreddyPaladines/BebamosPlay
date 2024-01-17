@@ -103,6 +103,12 @@ flutter:
     - family: AmaticSC
       fonts:
         - asset: fonts/AmaticSC-Regular.ttf 
+    - family: Hitchcut
+      fonts:
+        - asset: fonts/Hitchcut-Regular.ttf
+
+
+    
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700  
   #

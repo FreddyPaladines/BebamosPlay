@@ -30,7 +30,7 @@ class Barquitojuego extends StatelessWidget {
               children: [
                 Container(height: MediaQuery.of(context).size.height * 0.05),
                 Padding(
-                  padding: const EdgeInsets.only(left:20,right: 10),
+                  padding: const EdgeInsets.only(left:20,right: 20),
                   child: Container(
                     child: Text(
                       listapersonaje.idioma==0?"Mi barquito viene cargado de:":"The Ship Comes Loaded",
@@ -38,7 +38,7 @@ class Barquitojuego extends StatelessWidget {
                       style: TextStyle(
                         fontFamily: 'AmaticSC',
                         fontWeight: FontWeight.bold,
-                          fontSize:50,
+                          fontSize:45,
                           color: Colors.black,
                           ),
                     ),
@@ -47,6 +47,18 @@ class Barquitojuego extends StatelessWidget {
                 ),
                 Container(height: MediaQuery.of(context).size.height * 0.05),
                 MyHomePage(),
+                Container(height: MediaQuery.of(context).size.height * 0.02),
+
+                Text(
+                      listapersonaje.idioma==0?"Deslizar":"Slide",
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        fontFamily: 'AmaticSC',
+                        fontWeight: FontWeight.bold,
+                          fontSize:30,
+                          color: Colors.black,
+                          ),
+                    ),
               ],
             ),
           ],

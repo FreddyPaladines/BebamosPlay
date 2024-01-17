@@ -97,6 +97,7 @@ class Card_swiperNunca  extends StatelessWidget {
   Widget build(BuildContext context) {
 
   final listapersonaje=Provider.of<ListProvider>(context);
+  List ilistapersonaje = [for (var i = 0; i < juegosYoNunca.length; ++i) i%listapersonaje.listapersonaje.length];
 
 
 
@@ -124,29 +125,31 @@ class Card_swiperNunca  extends StatelessWidget {
             itemHeight: size.height*1,
             itemBuilder: (BuildContext context, int index){
               return Stack(
-              
-
-
 
                 children: 
-
                     [
                     BackgroundCafe(),
 //randomHappylist.descripcion
                     Column(
                       children: [
                         SizedBox(height: size.height*0.02,),
-
-                        Text(listapersonaje.idioma==0?"YO NUNCA NUNCA":"NEVER HAVE I EVER",
-                          textAlign: TextAlign.center,
+                        
+                        Text (listapersonaje.listapersonaje.length!=0?listapersonaje.listapersonaje[ilistapersonaje[index]]:"",textAlign: TextAlign.center,
                           style: TextStyle(fontSize: 30,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black) ), 
+ 
+
+                        Text(listapersonaje.idioma==0?"Yo nunca":"Never have i ever",
+                          textAlign: TextAlign.center,
+                          style: TextStyle(fontSize: 35,
                           fontWeight: FontWeight.bold,
                           color: Colors.black
               
 
                ),
           ),
-                        SizedBox(height: size.height*0.02,),
+                        SizedBox(height: size.height*0.005,),
                         Container(
                           margin: EdgeInsets.symmetric(horizontal: size.width*0.05,),
                           height:  size.height*0.2,
@@ -158,7 +161,7 @@ class Card_swiperNunca  extends StatelessWidget {
                               fontWeight: FontWeight.w600,
           ), 
                           )),
-                        SizedBox(height: size.height*0.02,),
+                        SizedBox(height: size.height*0.01,),
                         Center(
                           child: GestureDetector(
                             
@@ -167,7 +170,7 @@ class Card_swiperNunca  extends StatelessWidget {
 
                               borderRadius: BorderRadius.circular(20),
                               child: FadeInImage(
-                                height: size.height*0.4,
+                                height: size.height*0.35,
                                 placeholder: AssetImage("assets/loading.gif"),
                                 image: AssetImage(newlista[index].imaganes),
                                 fit:BoxFit.cover,
